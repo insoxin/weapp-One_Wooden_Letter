@@ -1,0 +1,174 @@
+page {
+    color: #757575;
+    background-color: #eeeeee;
+    padding-top: 80rpx;
+}
+
+view {
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    background-color: #2ff807;
+    width: 750rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 1rpx 10rpx rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.tabButton {
+    width: 375rpx;
+    float: left;
+    color: #ffffff;
+}
+
+.tabButton>view {
+    box-sizing: border-box;
+    float: left;
+    width: 105rpx;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 30rpx;
+}
+
+.tabButton:nth-child(1)>view {
+    margin: 0 90rpx 0 180rpx;
+}
+
+.tabButton:nth-child(2)>view {
+    margin: 0 180rpx 0 90rpx;
+}
+
+.getFocus {
+    color: #ffffff;
+    border-bottom: 8rpx solid #ffffff;
+}
+
+swiper,swiper-item {
+    width: 750rpx;
+    min-height: 680rpx;
+    height: 92vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.card {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 700rpx;
+    min-height: 150rpx;
+    border-radius: 4rpx;
+    margin: 25rpx;
+    padding: 30rpx;
+}
+
+.card-title {
+    font-size: 36rpx;
+    color: #31e90d;
+}
+
+.card-text {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    border-bottom: 0.5rpx solid #bdbdbd;
+}
+
+.card-text-hover {
+    background-color: #bdbdbd;
+}
+
+.card>view:last-child>.card-text {
+    border: none;
+}
+
+.allOption {
+    width: 700rpx;
+    box-sizing: border-box;
+    margin: 0 25rpx;
+    border-radius: 4rpx;
+    overflow: hidden;
+}
+
+.options {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: 90rpx;
+    line-height: 90rpx;
+    padding-left: 30rpx;
+    font-size: 30rpx;
+    border-bottom: 1rpx solid #eeeeee;
+}
+
+.options:active {
+    background-color: #11e434;
+    color: #ffffff;
+}
+
+.toolName {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    font-size: 30rpx;
+    line-height: 80rpx;
+    text-align: center;
+    background-color: #ffffff;
+    height: 80rpx;
+    width: 336rpx;
+    margin: 26rpx 0 0 26rpx;
+    border-radius: 6rpx;
+}
+
+.toolName-hover {
+    background-color: #15f10d;
+    color: #ffffff;
+}
+
+.share {
+    width: 750rpx;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.share-button:active {
+    background: #22f107;
+    color: #ffffff;
+}
+
+.share-button {
+    appearance: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 750rpx;
+    height: 200rpx;
+    line-height: 200rpx;
+    font-size: 36rpx;
+    letter-spacing: 20rpx;
+    text-align: center;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 -2rpx 5rpx rgba(0,0,0,0.2);
+    border-radius: 0;
+}
+
+.share-button::after {
+    border: none;
+    border-radius: 0;
+}

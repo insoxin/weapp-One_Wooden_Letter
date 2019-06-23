@@ -1,0 +1,27 @@
+<view class="tab">
+    <view bindtap="changeTab" class="tabButton" data-index="0">
+        <view class="{{index==0?'getFocus':'lostFocus'}}">赞赏作者</view>
+    </view>
+    <view bindtap="changeTab" class="tabButton" data-index="1">
+        <view class="{{index==1?'getFocus':'lostFocus'}}">开发感言</view>
+    </view>
+</view>
+<swiper bindchange="setFocus" current="{{index}}" duration="500" style="height:{{systemInfo.height-40}}px;">
+    <swiper-item>
+        <view>
+            <view bindtap="previewImage" class="image-box" data-index="{{index}}" wx:for="{{images}}">
+                <image class="nice-image" mode="widthFix" src="{{item}}"></image>
+            </view>
+            <button bindtap="saveImage" class="long-button">一键保存图片</button>
+            <navigator appId="{{geiZanConfig.appId}}" class="long-button" extraData="{{geiZanConfig.extraData}}" hidden="{{isHiddenGeiZan}}" openType="navigate" path="{{geiZanConfig.path}}" target="miniProgram" version="{{geiZanConfig.envVersion}}">直接赞赏</navigator>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view class="article">
+            <text class="title">{{article.title}}</text>
+            <text class="time">{{article.time}}</text>
+            <text class="author">{{article.author}}</text>
+            <text class="content">{{article.content}}</text>
+        </view>
+    </swiper-item>
+</swiper>

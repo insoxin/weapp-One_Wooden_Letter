@@ -1,0 +1,14 @@
+<view>
+    <form bindsubmit="trans">
+        <input focus class="input" maxlength="300" name="query" placeholder="请输入要翻译的内容" type="text" value="{{query}}"></input>
+        <button bindtap="selectFromLanguage" class="button">{{fromLanguage.name}}</button>
+        <button class="trans" formType="submit">译</button>
+        <button bindtap="selectToLanguage" class="button">{{toLanguage.name}}</button>
+    </form>
+    <view class="result" hidden="{{!trans}}">
+        <view class="showTrans">{{trans}}</view>
+        <button bindtap="listen" class="result-button">读</button>
+        <button bindtap="copy" class="result-button">复制</button>
+        <audio id="audio" src="{{voic}}"></audio>
+    </view>
+</view>

@@ -1,0 +1,2 @@
+<view class="tips">提示：点击扑克{{isSetAccelerometer==true?'或者摇一摇':''}}</view>
+<view bindtap="showPoker" class="poker" style="position:absolute;top:{{y}}rpx;left:{{x}}rpx;"></view>

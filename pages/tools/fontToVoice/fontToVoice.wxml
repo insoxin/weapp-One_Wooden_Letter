@@ -1,0 +1,23 @@
+<view style="overflow:hidden">
+    <form bindsubmit="createVoice">
+        <textarea bindinput="inputSave" class="textarea" maxlength="-1" name="text" placeholder="请输入要转成语音的文字" type="text" value="{{text}}"></textarea>
+        <view style="overflow:hidden">
+            <button bindtap="clear" class="button" hoverClass="button-hover">清空</button>
+            <button bindtap="paste" class="button" hoverClass="button-hover">粘贴</button>
+            <button class="button" formType="submit">合成语音</button>
+        </view>
+        <view class="result" hidden="{{!voiceUrl}}" style="overflow:hidden;margin:20rpx 0">
+            <button bindtap="audioPlay" class="button" hidden="{{voiceApi!='3'?true:false}}" hoverClass="button-hover">播放</button>
+            <button bindtap="copyUrl" class="button" hoverClass="button-hover">复制下载链接</button>
+            <button bindtap="saveFile" class="button" hidden="true" hoverClass="button-hover">保存到本地</button>
+        </view>
+        <view class="section">
+            <view class="section_title">语速</view>
+            <slider showValue activeColor="#08e037" blockColor="#08e037" blockSize="20" class="slider" max="7" min="1" name="speed" value="{{speed}}"></slider>
+        </view>
+        <view bindtap="setPerson" class="section" hidden="{{voiceApi!='3'?false:true}}" hoverClass="action-sheet-hover">
+            <view class="section_title">声源</view>
+            <view class="action-sheet">当前选择：{{personArr[personIndex]}}</view>
+        </view>
+    </form>
+</view>

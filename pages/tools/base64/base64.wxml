@@ -1,0 +1,12 @@
+<view>
+    <form bindsubmit="getResult">
+        <input focus class="input" maxlength="1000" name="content" placeholder="请输入内容" type="text" value="{{content}}"></input>
+        <button class="button" data-type="encode" formType="submit">加密</button>
+        <button class="button" data-type="decode" formType="submit">解密</button>
+    </form>
+    <view class="result" hidden="{{!result}}">
+        <view class="showResult">{{result}}</view>
+        <button bindtap="clear" class="result-button">清空</button>
+        <button bindtap="copy" class="result-button">复制</button>
+    </view>
+</view>

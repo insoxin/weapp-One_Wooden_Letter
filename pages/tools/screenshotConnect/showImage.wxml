@@ -1,0 +1,7 @@
+<view hidden="{{hidden}}" style="opacity:0;">
+    <canvas canvasId="draw" style="width:{{canvasWidth}}px;height:{{canvasHeight}}px"></canvas>
+</view>
+<view class="tips">小提示：点击图片可预览，点完长按可保存</view>
+<view class="image-box" style="height:{{showImage.height}}px;">
+    <image bindtap="previewImage" class="image" src="{{showImage.url}}" style="width:{{showImage.width}}px;height:{{showImage.height}}px"></image>
+</view>

@@ -1,0 +1,73 @@
+<view class="tab">
+    <view bindtap="changeTab" class="tabButton" data-index="0">
+        <view class="{{index==0?'getFocus':'lostFocus'}}">关于</view>
+    </view>
+    <view bindtap="changeTab" class="tabButton" data-index="1">
+        <view class="{{index==1?'getFocus':'lostFocus'}}">功能</view>
+    </view>
+    <view bindtap="changeTab" class="tabButton" data-index="2">
+        <view class="{{index==2?'getFocus':'lostFocus'}}">帮助</view>
+    </view>
+</view>
+<swiper bindchange="setFocus" current="{{index}}" duration="500" style="height:{{systemInfo.height-40}}px;">
+    <swiper-item>
+        <view class="card">
+            <view class="card-title">开发者</view>
+            <view class="card-line">
+          寒歌(一个木函app作者)
+        </view>
+            <view class="card-line">
+          姬长信
+        </view>
+        </view>
+        <view class="card" wx:if="{{false}}">
+            <view class="card-title">非常感谢以下项目</view>
+            <view bindtap="copy" class="card-double-line" data-copy="https://www.coolapk.com/apk/com.One.WoodenLetter">
+                <view class="card-text">
+            设计灵感来自一个木函
+          </view>
+                <view class="card-text-tips">链接：https://www.coolapk.com/apk/com.One.WoodenLetter</view>
+            </view>
+            <view bindtap="copy" class="card-double-line" data-copy="https://github.com/xtyxtyx/sorry">
+                <view class="card-text">
+            Github sorry 表情制作项目
+          </view>
+                <view class="card-text-tips">链接：https://github.com/xtyxtyx/sorry</view>
+            </view>
+            <view bindtap="copy" class="card-double-line" data-copy="https://github.com/yingye/weapp-qrcode">
+                <view class="card-text">
+            Github weapp-qrcode.js 
+          </view>
+                <view class="card-text-tips">链接：https://github.com/yingye/weapp-qrcode</view>
+            </view>
+        </view>
+        <view class="card">
+            <view class="card-title">联系与反馈</view>
+            <button class="card-line clearButtonStyle" openType="contact">
+          对话开发者
+        </button>
+            <view bindtap="copy" class="card-double-line" data-copy="insoxin@qq.com">
+                <view class="card-text">
+            邮箱反馈
+          </view>
+                <view class="card-text-tips">insoxin@qq.com</view>
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view bindtap="goToPage" class="card" data-url="{{item.url}}" hoverClass="card-hover" wx:for="{{functionInfo}}">
+            <view class="card-title">{{item.title}}</view>
+            <view class="card-content">{{item.content}}</view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view class="card" hoverClass="card-hover" wx:for="{{questionInfo}}">
+            <view class="card-question">
+                <span style="color:#08e037;">问：</span>{{item.question}}
+        </view>
+            <view class="card-answer">
+                <span style="color:#08e037;">答：</span>{{item.answer}}
+        </view>
+        </view>
+    </swiper-item>
+</swiper>

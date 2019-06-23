@@ -1,0 +1,6 @@
+<view class="all">
+    <view bindtap="toEditPage" class="card" data-id="{{item.id}}" hoverClass="card-hover" wx:for="{{gifList}}">
+        <view class="cover-image" style="background-image:url({{item.cover}});background-repeat:no-repeat;background-size:auto 100%;"></view>
+        <view class="title">{{item.name}}</view>
+    </view>
+</view>

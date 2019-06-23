@@ -1,0 +1,12 @@
+<view class="all">
+    <view class="top-block">
+        <image class="image" mode="aspectFit" src="{{gifInfo.testPic}}"></image>
+    </view>
+    <form bindsubmit="makeGif">
+        <view class="line" wx:for="{{gifInfo.example}}">
+            <view class="tips">第{{index+1}}句</view>
+            <input class="input" name="{{index}}" placeholder="{{item}}" type="text"></input>
+        </view>
+        <button class="button" formType="submit" hoverClass="button-hover">一键生成</button>
+    </form>
+</view>

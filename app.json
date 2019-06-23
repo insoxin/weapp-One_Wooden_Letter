@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tools/danmu/danmu",
+    "pages/tools/danmu/show_danmu",
+    "pages/tools/screenshotConnect/screenshotConnect",
+    "pages/tools/screenshotConnect/showImage",
+    "pages/tools/gifMaker/gifMaker",
+    "pages/tools/gifMaker/editGif",
+    "pages/tools/gifMaker/showGif",
+    "pages/tools/bilibiliDown/bilibiliDown",
+    "pages/tools/trans/trans",
+    "pages/tools/shortSite/shortSite",
+    "pages/tools/base64/base64",
+    "pages/tools/networkSpeed/networkSpeed",
+    "pages/tools/queryExpress/queryExpress",
+    "pages/tools/queryExpress/showExpressDetail",
+    "pages/tools/ruler/ruler",
+    "pages/setting/setting",
+    "pages/about/about",
+    "pages/reward/reward",
+    "pages/tools/randomPoker/randomPoker",
+    "pages/tools/randomPoker/showPoker",
+    "pages/index/more",
+    "pages/tools/fontToImage/fontToImage",
+    "pages/tools/fontToVoice/fontToVoice",
+    "pages/tools/cuttingNine/cuttingNine",
+    "pages/tools/createQrcode/createQrcode",
+    "pages/tools/scanQrcode/scanQrcode",
+    "pages/tools/calc/calc",
+    "pages/tools/calc/changehex",
+    "pages/notice/notice"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#08e037",
+    "navigationBarTitleText": "一个木函",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

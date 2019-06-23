@@ -1,0 +1,190 @@
+page {
+    padding: 0;
+    margin: 0;
+    font-size: 30rpx;
+    color: #757575;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%；;
+}
+
+.tips {
+    box-sizing: border-box;
+    width: 710rpx;
+    margin: 20rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    padding: 0 30rpx;
+    overflow: hidden;
+    border-radius: 10rpx;
+    background-color: #ffffff;
+    box-shadow: 0rpx 0rpx 1rpx rgba(0,0,0,0.3);
+}
+
+.expressList {
+    box-sizing: border-box;
+    width: 710rpx;
+    margin: 20rpx 20rpx 0rpx 20rpx;
+    padding: 20rpx;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0rpx 2rpx 2rpx rgba(0,0,0,0.2);
+    border-radius: 4rpx;
+    color: #1a1d22!important;
+}
+
+.expressList-hover {
+    background-color: #1a1d22;
+    color: #ffffff!important;
+}
+
+.express-name {
+    width: 120rpx;
+    height: 120rpx;
+    box-sizing: border-box;
+    line-height: 120rpx;
+    text-align: center;
+    font-size: 35rpx;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #08e037;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20rpx;
+}
+
+.express-postid {
+    width: 530rpx;
+    height: 50rpx;
+    box-sizing: border-box;
+    line-height: 50rpx;
+    font-size: 35rpx;
+    font-weight: bold;
+    float: left;
+}
+
+.express-remarks,.express-time {
+    width: 530rpx;
+    height: 35rpx;
+    box-sizing: border-box;
+    line-height: 35rpx;
+    font-size: 25rpx;
+    float: left;
+}
+
+.add {
+    apperance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    border: none;
+    width: 120rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    text-align: center;
+    font-size: 60rpx;
+    color: #08e037;
+    background-color: #ffffff;
+    box-shadow: 1rpx 1rpx 20rpx rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 50rpx;
+    right: 50rpx;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+.alert {
+    box-sizing: border-box;
+    width: 750rpx;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1024;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-content {
+    display: block;
+    width: 660rpx;
+    margin: 0 45rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 35rpx;
+    border-radius: 6rpx;
+    margin-bottom: 150rpx;
+}
+
+.alert-title {
+    box-sizing: border-box;
+    margin-bottom: 35rpx;
+    font-size: 40rpx;
+}
+
+.alert-input {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 60rpx;
+    line-height: 60rpx;
+    margin-bottom: 50rpx;
+    border-bottom: 4rpx solid #08e037;
+    font-size: 30rpx;
+}
+
+.alert-small-title {
+    box-sizing: border-box;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 24rpx;
+    margin-bottom: 20rpx;
+}
+
+.alert-select-input {
+    width: 570rpx;
+    margin: 0 10rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #08e037;
+    color: #ffffff;
+    box-shadow: 0rpx 0rpx 10rpx rgba(0,0,0,0.3);
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    text-align: center;
+    margin-bottom: 50rpx;
+    border-radius: 8rpx;
+}
+
+.alert-button {
+    apperance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    border: none;
+    text-align: center;
+    font-size: 30rpx;
+    float: right;
+    color: #08e037;
+    border-radius: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.alert-button::after,.add::after {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+
+.alert-button-hover,.add-hover {
+    background-color: #08e037;
+    color: #ffffff;
+}

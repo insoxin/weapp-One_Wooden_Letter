@@ -1,0 +1,54 @@
+<view style="overflow:hidden">
+    <form bindsubmit="createImage">
+        <textarea bindinput="inputSave" class="textarea" maxlength="-1" name="text" placeholder="请输入文字" type="text" value="{{text}}"></textarea>
+        <view style="overflow:hidden">
+            <button bindtap="clear" class="button" hoverClass="button-hover">清空</button>
+            <button bindtap="paste" class="button" hoverClass="button-hover">粘贴</button>
+            <button class="button" formType="submit">生成图片</button>
+        </view>
+        <view class="section">
+            <view class="section_title">字体大小</view>
+            <slider showValue activeColor="#08e037" blockColor="#08e037" blockSize="20" class="slider" max="96" min="10" name="fontSize" value="{{textConfig.fontSize}}"></slider>
+        </view>
+        <view class="section">
+            <view class="section_title">行间距</view>
+            <slider showValue activeColor="#08e037" blockColor="#08e037" blockSize="20" class="slider" max="180" min="20" name="lineHeight" value="{{textConfig.lineHeight}}"></slider>
+        </view>
+        <view class="section">
+            <view class="section_title">内边距</view>
+            <slider showValue activeColor="#08e037" blockColor="#08e037" blockSize="20" class="slider" max="180" min="5" name="padding" value="{{textConfig.padding}}"></slider>
+        </view>
+        <view class="section">
+            <view class="section_title">字体风格</view>
+            <radio-group bindchange="setTextStyle">
+                <label class="radio">
+                    <radio checked color="#08e037" value="normal"></radio>正常
+        </label>
+                <label class="radio">
+                    <radio color="#08e037" value="bold"></radio>粗体
+        </label>
+                <label class="radio">
+                    <radio color="#08e037" value="italic"></radio>斜体
+        </label>
+            </radio-group>
+        </view>
+        <view class="section">
+            <view class="section_title">字体颜色</view>
+            <picker bindchange="selectFontColor" class="picker" name="fontColor" range="{{color_array}}" value="{{fontColorIndex}}">
+                <view class="section_input">
+          当前选择：{{color_array[fontColorIndex]}}
+        </view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section_title">背景颜色</view>
+            <picker bindchange="selectBgColor" class="picker" name="bgColor" range="{{color_array}}" value="{{bgColorIndex}}">
+                <view class="section_input">
+          当前选择：{{color_array[bgColorIndex]}}
+        </view>
+            </picker>
+        </view>
+    </form>
+</view>
+<canvas canvasId="canvas" hidden="{{isHiddenCanvas}}" style="width:{{width}}px;height:{{height}}px"></canvas>
+<canvas canvasId="testCaanvas" hidden="{{isHiddenTestCanvas}}" style="width:{{testWidth}}px;height:{{testHeight}}px"></canvas>

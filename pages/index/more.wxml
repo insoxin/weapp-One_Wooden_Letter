@@ -1,0 +1,6 @@
+<view bindlongpress="selectToLove" bindtap="goToPage" class="toolName" data-index="{{index}}" data-title="{{item.toolName}}" data-url="{{item.url}}" hoverClass="toolName-hover" wx:for="{{tools}}">{{item.toolName}}
+</view>
+<view bindtap="alert" class="toolName" hoverClass="toolName-hover">更多敬请期待</view>
+<view bindtap="hideShare" class="share" hidden="{{isHiddenShare}}">
+    <button class="share-button" openType="share">点我转发</button>
+</view>

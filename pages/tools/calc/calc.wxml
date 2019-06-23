@@ -1,0 +1,52 @@
+<page>
+    <view class="bigbox">
+        <view class="screen">
+            <view class="space"></view>
+            <view class="screenbox">
+                <view class="scntop">{{screenStr}}</view>
+                <view class="scnbom">{{screenData}}</view>
+            </view>
+        </view>
+        <view class="numbox">
+            <view class="numKey">
+                <view bindtap="btnClick" class="nums" id="{{clear}}">AC</view>
+                <view bindtap="btnClick" class="nums" id="{{numx}}">x</view>
+                <view bindtap="btnClick" class="nums" id="{{numc}}">/</view>
+                <view bindtap="btnClick" class="nums" id="{{numa}}">+</view>
+            </view>
+            <view class="numKey">
+                <view bindtap="btnClick" class="nums" id="{{num7}}">7</view>
+                <view bindtap="btnClick" class="nums" id="{{num8}}">8</view>
+                <view bindtap="btnClick" class="nums" id="{{num9}}">9</view>
+                <view bindtap="btnClick" class="nums" id="{{numb}}">-</view>
+            </view>
+            <view class="numKey">
+                <view bindtap="btnClick" class="nums" id="{{num4}}">4</view>
+                <view bindtap="btnClick" class="nums" id="{{num5}}">5</view>
+                <view bindtap="btnClick" class="nums" id="{{num6}}">6</view>
+                <view bindtap="btnClick" class="nums" id="{{numt}}">00</view>
+            </view>
+            <view>
+                <view class="numsmall1">
+                    <view bindtap="btnClick" class="num" id="{{num1}}">1</view>
+                    <view bindtap="btnClick" class="num3" id="{{numd}}">.</view>
+                </view>
+                <view class="numsmall">
+                    <view bindtap="btnClick" class="num" id="{{num2}}">2</view>
+                    <view bindtap="btnClick" class="num3" id="{{num0}}">0</view>
+                </view>
+                <view class="numsmall">
+                    <view bindtap="btnClick" class="num" id="{{num3}}">3</view>
+                    <view bindtap="btnClick" class="num3" id="{{clear}}">DEL</view>
+                </view>
+                <view bindtap="btnClick" class="numsma" id="{{result}}">=</view>
+            </view>
+            <view class="numKey">
+                <view bindtap="toBinary" class="nums">转2进制</view>
+                <view bindtap="toOctonary" class="nums">转8进制</view>
+                <view bindtap="toHexadecimal" class="nums">转16进制</view>
+                <view bindtap="changeHex" class="nums">进制转换</view>
+            </view>
+        </view>
+    </view>
+</page>

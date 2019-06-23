@@ -1,0 +1,55 @@
+page {
+    padding: 0;
+    margin: 0;
+    font-size: 30rpx;
+    color: #757575;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%；;
+}
+
+.express {
+    box-sizing: border-box;
+    width: 710rpx;
+    margin: 20rpx 20rpx 0rpx 20rpx;
+    padding: 20rpx;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0rpx 2rpx 2rpx rgba(0,0,0,0.2);
+    border-radius: 4rpx;
+    color: #1a1d22!important;
+}
+
+.express-hover {
+    background-color: #08e037;
+    color: #ffffff!important;
+}
+
+.expressInfo {
+    width: 100%;
+    line-height: 60rpx;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 30rpx;
+}
+
+.expressTime {
+    width: 100%;
+    margin-top: 20rpx;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 24rpx;
+}
+
+.tips {
+    box-sizing: border-box;
+    width: 710rpx;
+    margin: 20rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    padding: 0 30rpx;
+    overflow: hidden;
+    border-radius: 10rpx;
+    background-color: #ffffff;
+    box-shadow: 0rpx 0rpx 1rpx rgba(0,0,0,0.3);
+}

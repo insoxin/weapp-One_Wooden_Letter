@@ -1,0 +1,5 @@
+<view class="card" wx:for="{{noticeList}}">
+    <view class="card-title">{{item.title}}</view>
+    <view class="card-time">{{item.time}}</view>
+    <text class="card-content">{{item.content}}</text>
+</view>
