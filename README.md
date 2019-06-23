@@ -1,12 +1,17 @@
 # weapp-One_Wooden_Letter
 # 一个木函微信小程序版 
 
-## 一个30+功能的工具合集 测速小功能抖音点赞三十W 2019最流行的绿 绿的你发慌的绿
+## 一个30+功能的工具合集 测速小功能抖音点赞三十W 2019最流行的绿 绿的你发慌的绿   
+
+本程序开源在https://github.com/insoxin/weapp-One_Wooden_Letter  后端 https://api.isoyu.com/  开源地址:https://github.com/insoxin/API
 
 ## 微信直接搜索"一个木函工具箱"即可体验
+
 ![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/QQ%E6%88%AA%E5%9B%BE20190623173536.png)
 ![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/QQ%E6%88%AA%E5%9B%BE20190623173635.png)
 ![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/QQ%E6%88%AA%E5%9B%BE20190623173608.png)
+
+
              首页功能",
             content: "长按任一功能可以添加到喜欢列表或者移出喜欢列表，在首页点击右上角三个点即可添加快捷方式到桌面。",
 
@@ -85,6 +90,6 @@
             answer: "有时间的话一定会的，如果大家支持点小钱就更有动力了。"
             
             
-            
+   小程序码         
 ![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/gh_2d1029d8a5ef_1280.jpg)
 
