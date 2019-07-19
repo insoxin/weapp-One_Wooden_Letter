@@ -29,4 +29,5 @@
       dataType:'json' ......
       
  第二种方案服务器无需做任务操作。
+ 
 https://github.com/insoxin/
