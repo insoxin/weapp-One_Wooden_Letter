@@ -1,2 +1,0 @@
-<view class="tips">小提示：点击图片可预览，点完长按可保存(设置里需要保存相册权限)</view>
-<image bindtap="previewImage" class="image" mode="aspectFit" src="{{gifUrl}}"></image>
