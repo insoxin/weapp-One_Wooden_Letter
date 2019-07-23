@@ -1,9 +1,13 @@
+2019.07.23收到一个木函官方通知,(占用帐号名称)本程序作删库下架处理,其他使用源码者尽快配合一个木函官方处理下架事宜
+
 # weapp-One_Wooden_Letter
 # 一个木函微信小程序版 
 
 ## 一个30+功能的工具合集 测速小功能抖音点赞三十W 2019最流行的绿 绿的你发慌的绿   
 
-本程序开源在https://github.com/insoxin/weapp-One_Wooden_Letter  后端 https://api.isoyu.com/  开源地址:https://github.com/insoxin/API
+本程序(一个木函微信小程序版)开源在https://github.com/insoxin/weapp-One_Wooden_Letter  
+支付宝(一个木函支付宝小程序版)同名同款小程序:https://github.com/insoxin/aliapp-One_Wooden_Letter
+后端 https://api.isoyu.com/  开源地址:https://github.com/insoxin/API
 
 ## 微信直接搜索"一个木函工具箱"即可体验
 
