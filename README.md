@@ -14,7 +14,7 @@
 ![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/QQ%E6%88%AA%E5%9B%BE20190623173536.png)
 ![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/QQ%E6%88%AA%E5%9B%BE20190623173635.png)
 ![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/QQ%E6%88%AA%E5%9B%BE20190623173608.png)
-
+![小程序码](https://raw.githubusercontent.com/insoxin/weapp-One_Wooden_Letter/master/%E5%8D%83M%E5%B8%A6%E5%AE%BD%E6%B5%8B%E9%80%9F.jpg)
 
              首页功能",
             content: "长按任一功能可以添加到喜欢列表或者移出喜欢列表，在首页点击右上角三个点即可添加快捷方式到桌面。",
