@@ -1,7 +1,0 @@
-<view class="tips" hidden="{{expressDetail[0]}}">哇，什么也没有，凉凉</view>
-<view hidden="{{!expressDetail}}">
-    <view bindlongpress="showMenu" class="express" data-index="{{index}}" hoverClass="express-hover" wx:for="{{expressDetail}}">
-        <view class="expressInfo">{{item.context}}</view>
-        <view class="expressTime">{{item.time}}</view>
-    </view>
-</view>
