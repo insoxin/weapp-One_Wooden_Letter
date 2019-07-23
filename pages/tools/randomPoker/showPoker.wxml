@@ -1,9 +1,0 @@
-<view class="allTop" style="color:{{color=='black'?'black':'red'}};">
-    <view class="top big-text">{{poker_num}}</view>
-</view>
-<view class="allMiddle" style="color:{{color=='black'?'black':'red'}};">
-    <view class="middle">{{poker_color}}</view>
-</view>
-<view class="allBottom" style="color:{{color=='black'?'black':'red'}};">
-    <view class="bottom big-text">{{poker_num}}</view>
-</view>
